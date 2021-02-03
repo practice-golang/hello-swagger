@@ -1,4 +1,4 @@
-package main // import "local.host/bookshelf"
+package main // import "bookshelf"
 
 import (
 	"log"
