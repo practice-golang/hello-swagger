@@ -8,4 +8,7 @@ require (
 	commons v0.0.0
 )
 
-replace commons => ../commons
+replace (
+	commons => ../commons
+	consts => ../consts
+)
