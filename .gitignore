@@ -3,8 +3,8 @@
 /bin/*.exe~
 /bin/bookshelf*
 /bin/*.log
-/docs/swagger*
-/docs/docs.go
+/bookshelf/docs/swagger*
+/bookshelf/docs/docs.go
 *.dll
 *.so
 *.dylib
