@@ -1,0 +1,34 @@
+### Heartbeat
+GET http://localhost:4416/api/v1/health
+
+### Login - JWT 토큰 획득용
+GET http://localhost:4416/api/v1/sample-token
+
+
+### GetBook - 책 정보
+GET http://localhost:4416/api/v1/get-book/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FtcGxlIFVzZXIiLCJleHAiOjE2Mzc4MjgyNjZ9.sqH--jN2rVrv11Mbppt4NQjQOd_Hw3-3BduPhClLlr0
+
+
+### SearchBook - 책 검색
+POST http://localhost:4416/api/v1/search-book
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FtcGxlIFVzZXIiLCJleHAiOjE2Mzc4MjgyNjZ9.sqH--jN2rVrv11Mbppt4NQjQOd_Hw3-3BduPhClLlr0
+content-type: application/json
+
+{
+  "name": "haha"
+}
+
+### JWT - Restricted contents
+POST http://localhost:4416/api/v1/add-book
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FtcGxlIFVzZXIiLCJleHAiOjE2Mzc4MjgyNjZ9.sqH--jN2rVrv11Mbppt4NQjQOd_Hw3-3BduPhClLlr0
+content-type: application/json
+
+{
+  "name": "기동전사 건담",
+  "author": "토미노 요시유키",
+  "edition": 1,
+  "price": 5000,
+  "unit": "KRW",
+  "publisher": "시공사"
+}
