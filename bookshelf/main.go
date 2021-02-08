@@ -14,7 +14,8 @@ import (
 	"commons"
 	"consts"
 
-	echoSwagger "github.com/swaggo/echo-swagger"
+	// echoSwagger "github.com/swaggo/echo-swagger"
+	echoSwagger "echo-swagger"
 
 	_ "docs"
 )

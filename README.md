@@ -1,4 +1,4 @@
-# Swagger practice using swaggo, echo-swagger
+# Swagger practice using swaggo
 
 * Swagger `docs` page : http://localhost:4416/docs/index.html -> `Basic auth`: dev / 1234
 
